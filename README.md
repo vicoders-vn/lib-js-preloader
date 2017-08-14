@@ -18,7 +18,7 @@ plugins: [
 
 ### To show preloader
 ```
-import { preloader } from '../node_modules/vicoders-preloader/assets/js/notify.js';
+import { preloader } from '../node_modules/vicoders-preloader/assets/js/preloader.js';
 $(document).ready(function() {
 	var obj = new preloader;
 	obj.show();
@@ -27,7 +27,7 @@ $(document).ready(function() {
 
 ### To hide preloader
 ```
-import { preloader } from '../node_modules/vicoders-preloader/assets/js/notify.js';
+import { preloader } from '../node_modules/vicoders-preloader/assets/js/preloader.js';
 $(document).ready(function() {
 	var obj = new preloader;
 	obj.hide();
